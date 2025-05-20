@@ -1,11 +1,16 @@
+import HeroSection from "@/components/home/hero-section";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="home">
+    <div className="relative w-full">
+      <HeroSection />
+      {/* <DemoSection /> */}
+      {/* <HowItWorksSection /> */}
+      {/* <PricingSection /> */}
+      {/* <CTASection /> */}
 
-      <Button variant='outline' size={'lg'}>hit me!</Button>
     </div>
   );
 }
